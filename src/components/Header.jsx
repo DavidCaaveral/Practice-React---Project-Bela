@@ -8,7 +8,7 @@ export default function Header() {
         <nav className="navbar--mod navbar navbar-expand-lg bg-body-tertiary">
           <div className="content__header container-fluid">
             <div className="title">
-              <a className="Name__title navbar-brand ms-5" href="#">Amonchis Productions</a>
+              <Link className="Name__title navbar-brand ms-5" to="/">Amonchis Productions</Link>
             </div>
             <div className="links__entrance " id="navbarSupportedContent">
               <ul className="links__entrance navbar-nav mb-2 mb-lg-0">
