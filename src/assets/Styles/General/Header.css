@@ -1,0 +1,69 @@
+/* @import "tailwindcss"; */
+
+/* variables */
+
+:root{
+    --mainPurple:#be8ed8;
+    --mainYellow:#ebf3a0;
+}
+
+*{
+ padding: 0%;   
+ margin: 0%;
+}
+
+.Name__title {
+  font-family: "Momo Signature", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: var(--mainPurple);
+}
+.Name__title:hover{
+    cursor: pointer;
+    color: var(--mainYellow);
+}
+
+.title{
+   width: 50%; 
+   display: flex;
+   justify-content: start;
+   flex-wrap: wrap;
+}
+.links__entrance{
+    width: 50%;
+    display: flex;
+   justify-content:space-evenly;
+   flex-wrap: wrap;
+   align-items: center;
+}
+
+.content__header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.navbar--mod{
+    width: 70%;
+    margin-top: 2rem;
+    border-radius: 3rem;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.nav__item{
+    width: 5rem;
+}
+.Main__menu{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.contactButton{
+    background-color: var(--mainPurple);
+    color: aliceblue;
+}
+.contactButton:hover{
+    cursor: pointer;
+    background-color: var(--mainYellow);
+    color: black;
+}

@@ -1,0 +1,58 @@
+:root{
+    --mainPurple:#be8ed8;
+    --mainYellow:#ebf3a0;
+}
+
+.card__footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+    background-color: var(--mainPurple);
+    width: 100%;
+    height: 6rem;
+    border-top-left-radius: 3rem;
+    border-top-right-radius: 3rem;
+    box-shadow: 5px 0px 15px rgba(0, 0, 0, 0.3);
+}
+
+.card__body{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.Icon__footer{
+    width: 4rem;
+     filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.4));
+}
+
+.Name__title__footer {
+  font-family: "Momo Signature", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: var(--mainYellow);
+  font-size:large !important;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+.Name__title__footer:hover{
+    cursor: pointer;
+    transform: scale(0.9);
+    color: var(--mainYellow);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.title__footer{
+   width: 45%; 
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+}
+.separator{
+    width: 3px;
+    height: 80%;
+    border-radius: 3rem;
+    background-color: var(--mainYellow);
+}

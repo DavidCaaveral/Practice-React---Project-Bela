@@ -1,0 +1,30 @@
+:root{
+    --mainPurple:#be8ed8;
+    --mainYellow:#ebf3a0;
+}
+
+.homeWall{
+    width: 100%;
+    height: 46rem;
+    background-image: url('../../Img/bannerHome.jpg');
+    background-size: cover;         /* makes the image fill the div */
+    background-position: center;    /* centers the image */
+    background-repeat: no-repeat;
+}
+
+.carousel__container{
+    margin-top: 5rem !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.history__title{
+    font-family: "Momo Signature", cursive;
+    font-weight: 500;
+    font-style: normal;
+    color: var(--mainPurple);
+    text-shadow: 2px 2px 4px var(--mainYellow);
+    border-bottom: 2px solid #be8ed8;
+}

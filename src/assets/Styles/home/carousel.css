@@ -1,0 +1,92 @@
+:root{
+    --mainPurple:#be8ed8;
+    --mainYellow:#ebf3a0;
+}
+
+.container_carousel{
+  display: flex;
+  justify-content: center;
+}
+
+.carousel-container {
+  width: 95%;
+  margin-top: 5rem;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.carousel-swiper {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.carousel-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.5s ease, opacity 0.5s ease;
+}
+
+/* Las imágenes sí tienen tamaño fijo, no el contenedor */
+.carousel-slide img {
+  width: 350px;        /* tamaño vertical controlado */
+  height: 550px;
+  object-fit: cover;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  transition: transform 0.5s ease;
+}
+
+/* Efecto de apilado horizontal */
+.swiper-slide-prev {
+  width: 350px;        /* tamaño vertical controlado */
+  height: 550px;
+  transform: translateX(-120px) scale(0.9);
+  opacity: 0.8;
+  z-index: 1;
+}
+
+.swiper-slide-next {
+    width: 350px;        /* tamaño vertical controlado */
+  height: 550px;
+  transform: translateX(120px) scale(0.9);
+  opacity: 0.8;
+  z-index: 1;
+}
+
+/* La imagen del centro siempre al frente */
+.swiper-slide-active {
+    width: 350px;        /* tamaño vertical controlado */
+  height: 550px;
+  transform: translateX(0) scale(1.05);
+  z-index: 3;
+  opacity: 1;
+}
+
+/* Ajuste para que se vea limpio */
+.swiper-wrapper {
+  align-items: center;
+}
+
+/* Flechas */
+.swiper-button-prev,
+.swiper-button-next {
+  width: 1rem !important;
+  color: var(--mainPurple) !important;
+  transition: color 0.3s ease;
+}
+
+.swiper-button-prev:hover,
+.swiper-button-next:hover {
+  color: var(--mainYellow) !important;
+}
+
+.swiper-slide{
+  width: 350px  !important ;     /* tamaño vertical controlado */
+  height: 550px !important;
+}
+

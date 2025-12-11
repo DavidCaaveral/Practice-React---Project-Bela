@@ -1,0 +1,68 @@
+:root{
+    --mainPurple:#be8ed8;
+    --mainYellow:#ebf3a0;
+}
+
+.history__conatiner{
+    margin-top: 6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.history__tilte__container{
+    padding: 0.5rem;
+    width: 70%;
+    border-radius: 0.3rem;
+    /* border-top: 2px solid #be8ed8; */
+    /* border-bottom: 2px solid #be8ed8; */
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.history__starting{
+    width:80% ;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.video__history {
+  width: 450px;
+  height: 650px;
+  object-fit: cover !important;
+  display: block !important;              
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  transition: transform 0.5s ease;
+}
+
+.video__history:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.History__text{
+    width: 40%;
+}
+
+.Our__Story{
+    font-family: "Comic Neue", cursive;
+    font-weight: 550;
+    font-style: normal;
+    color: rgb(0, 0, 0);
+}
+.image-wrapper {
+  position: relative;
+}
+
+.image-text {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+   font-family: "Comic Neue", cursive;
+    font-weight: 550;
+    font-style: normal;
+    color: azure;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
