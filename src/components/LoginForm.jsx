@@ -1,54 +1,23 @@
 import React from 'react'
 import { Button, Checkbox, Form, Input } from 'antd';
-const onFinish = values => {
-  console.log('Success:', values);
-};
-const onFinishFailed = errorInfo => {
-  console.log('Failed:', errorInfo);
-};
+
 
 export default function LoginForm() {
   return (
-    <>\
+    <>
     <section className="login__container">
-      <Form
-        name="basic"
-        labelCol={{ span: 8 }}
-        wrapperCol={{ span: 16 }}
-        style={{ maxWidth: 600 }}
-        initialValues={{ remember: true }}
-        onFinish={onFinish}
-        onFinishFailed={onFinishFailed}
-        autoComplete="off"
-      >
-        <Form.Item
-          label="Username"
-          name="username"
-          rules={[{ required: true, message: 'Please input your username!' }]}
-        >
-          <Input />
-        </Form.Item>
-
-        <Form.Item
-          label="Password"
-          name="password"
-          rules={[{ required: true, message: 'Please input your password!' }]}
-        >
-          <Input.Password />
-        </Form.Item>
-
-        <Form.Item name="remember" valuePropName="checked" label={null}>
-          <Checkbox>Remember me</Checkbox>
-        </Form.Item>
-
-        <Form.Item label={null}>
-          <Button type="primary" htmlType="submit">
-            Submit
-          </Button>
-        </Form.Item>
-      </Form>
-    </section>
-      
+      <form className='form__login'>
+        <div className="inputsLog mb-3">
+          <label for="exampleInputEmail1" className="form-label login__info__text">Username</label>
+          <input type="Name" className="form-control inputPl" id="exampleInputEmail1" aria-describedby="emailHelp"/>
+        </div>
+        <div className="inputsLog mb-3">
+          <label for="exampleInputPassword1" className="form-label login__info__text">Password</label>
+          <input type="password" className="form-control inputPl" id="exampleInputPassword1"/>
+        </div>
+        <button type="button" className="btn contactButton infoBanner__info__text">Log In</button>
+      </form>
+    </section>   
     </>
   )
 }
