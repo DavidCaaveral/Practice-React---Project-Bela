@@ -19,7 +19,7 @@ export default function Header() {
                   <a className="nav-link active" aria-current="page" href="#">Info</a>
                 </li>
                 <li className="nav-item">
-                  <button type="button" className="btn contactButton">Contacto</button>
+                  <Link type="button" className="btn contactButton" to="/Contact">Contacto</Link>
                 </li>
               </ul>
             </div>

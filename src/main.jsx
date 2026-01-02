@@ -9,6 +9,7 @@ import './assets/Styles/home/history.css';
 import './assets/Styles/General/Footer.css';
 // import './assets/Styles/General/Tailwind.css';
 import './assets/Styles/Login/login.css'
+import './assets/Styles/Contact/contact.css'
 
 import App from './App.jsx'
 import { BrowserRouter } from 'react-router-dom'

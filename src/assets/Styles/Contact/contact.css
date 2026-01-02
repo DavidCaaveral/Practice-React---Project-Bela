@@ -1,0 +1,23 @@
+:root{
+    --mainPurple:#be8ed8;
+    --mainYellow:#ebf3a0;
+}
+
+.contact__conatiner{
+    width: 100%;
+    height: 120vh;
+    background-image: url('../../Img/background\ login.png');
+    background-size: cover;         /* makes the image fill the div */
+    background-position: center 20%;    /* centers the image */
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contact__Information__Container{
+    margin-top: 5rem;
+    width: 80%;
+    height: 10rem;
+    background-color: #fff;
+
+}
