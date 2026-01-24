@@ -1,8 +1,8 @@
-:root{
-    --mainPurple:#be8ed8;
-    --mainYellow:#ebf3a0;
-    --transyellow:#ebf3a094;
-}
+    :root{
+        --mainPurple:#be8ed8;
+        --mainYellow:#ebf3a0;
+        --transyellow:#ebf3a094;
+    }
 
 .contact__Background{
     width: 100%;

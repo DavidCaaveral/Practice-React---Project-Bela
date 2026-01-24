@@ -29,7 +29,7 @@ export default function Contact() {
               </section>
             </div>
           </div>
-    <Footer />
+          <Footer />
         </div>
       </section>
     </div>

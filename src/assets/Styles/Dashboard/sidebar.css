@@ -1,0 +1,39 @@
+:root{
+    --mainPurple:#be8ed8;
+    --mainYellow:#ebf3a0;
+    --transyellow:#ebf3a094;
+}
+
+
+.big__container{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.navbar-aside {
+    width: 15rem;
+    height: 100vh; 
+    background-color: var(--mainPurple);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly!important;
+
+    background-color: var(--mainPurple);
+     filter: drop-shadow(
+        9px 1px 5px rgba(0, 0, 0, 0.278)
+    );
+    position: fixed;
+    top: 0;
+    left: 0;
+
+}
+.aside__container{
+    width: 20%;
+}
+
+.dashboard__content{
+    flex: 1;
+}
