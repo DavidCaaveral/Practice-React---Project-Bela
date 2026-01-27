@@ -1,5 +1,6 @@
 import React from 'react'
 import { Button, Checkbox, Form, Input } from 'antd';
+import { Link } from 'react-router-dom'
 
 
 export default function LoginForm() {
@@ -15,7 +16,7 @@ export default function LoginForm() {
           <label for="exampleInputPassword1" className="form-label login__info__text">Password</label>
           <input type="password" className="form-control inputPl" id="exampleInputPassword1"/>
         </div>
-        <button type="button" className="btn contactButton infoBanner__info__text">Log In</button>
+        <Link type="button" className="btn contactButton infoBanner__info__text" to="/dashboard">Log In</Link>
       </form>
     </section>   
     </>

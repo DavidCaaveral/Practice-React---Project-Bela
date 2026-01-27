@@ -1,6 +1,8 @@
 import React from 'react'
 import Header from '../components/Header'
 import AsideMenu from '../components/AsideMenu'
+import Scrapping from '../components/Scrapping'
+import IA from '../components/IA'
 
 export default function Dashboard() {
   return (
