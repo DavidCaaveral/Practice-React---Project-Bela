@@ -22,7 +22,7 @@ export default function AsideMenu() {
               </div>
           </div>  
           <br />
-          <div class="divider"></div>
+          <div className="divider"></div>
           <br />
           <div className="scrapp__history__container">
             <section className='h__title__conatiner'>

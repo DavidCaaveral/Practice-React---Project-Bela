@@ -1,10 +1,10 @@
-import Home from "./Pages/Home"
-import Info from "./Pages/Info"
-import Login from "./Pages/Login"
-import Profile from "./Pages/Profile"
-import Dashboard from "./Pages/Dashboard"
-import Messages from "./Pages/Messages"
-import Contact from "./Pages/Contact"
+import Home from "./Pages/Home.js";
+import Info from "./Pages/Info.js";
+import Login from "./Pages/Login.js";
+import Profile from "./Pages/Profile.jsx";
+import Dashboard from "./Pages/Dashboard.js";
+import Messages from "./Pages/Messages.jsx";
+import Contact from "./Pages/Contact.js";
 import { Routes,Route,Navigate } from "react-router-dom"
 import { useState,useEffect } from "react"
 

@@ -1,8 +1,8 @@
 import React from 'react'
-import Header from '../components/Header'
-import Footer from '../components/Footer'
-import LoginForm from '../components/LoginForm'
-import VideoLogin from '../components/VideoLogin'
+import Header from '../components/Header.js'
+import Footer from '../components/Footer.js'
+import LoginForm from '../components/LoginForm.jsx'
+import VideoLogin from '../components/VideoLogin.jsx'
 
 export default function Login() {
   return (

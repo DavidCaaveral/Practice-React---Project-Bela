@@ -2,9 +2,9 @@ import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { EffectCoverflow, Navigation, Pagination } from 'swiper/modules';
 
-import 'swiper/css';
-import 'swiper/css/effect-coverflow';
-import 'swiper/css/navigation';
+  import 'swiper/css';
+  import 'swiper/css/effect-coverflow';
+  import 'swiper/css/navigation';
 
 import slide_image_1 from '../assets/Img/carouselHome/David&Bela.jpg';
 import slide_image_2 from '../assets/Img/carouselHome/David&Bela2.jpg';
@@ -17,7 +17,11 @@ import slide_image_8 from '../assets/Img/carouselHome/David&Bela8.jpg';
 import slide_image_9 from '../assets/Img/carouselHome/David&Bela9.jpg';
 
 export default function CarouselSection() {
-  const slides = [
+  interface Slide {
+    src: any;
+  }
+
+  const slides: Slide[] = [
     { src: slide_image_1 },
     { src: slide_image_2 },
     { src: slide_image_3 },

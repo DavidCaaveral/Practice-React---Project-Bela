@@ -1,6 +1,6 @@
 import React from 'react'
-import video from '../assets/videos/belaYdavy.mp4';
 
+import video from '../assets/videos/belaYdavy.mp4';
 export default function VideoLogin() {
   return (
     <>

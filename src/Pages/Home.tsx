@@ -1,9 +1,9 @@
 import React from 'react'
-import Header from '../components/Header'
-import InitialInfo from '../components/InitialInfo'
-import CarouselSection from '../components/CarouselSection'
-import HistoryPage from '../components/HistoryPage'
-import Footer from '../components/Footer'
+import Header from '../components/Header.js'
+import InitialInfo from '../components/InitialInfo.jsx'
+import CarouselSection from '../components/CarouselSection.js'
+import HistoryPage from '../components/HistoryPage.jsx'
+import Footer from '../components/Footer.js'
 
 export default function Home() {
   return (
