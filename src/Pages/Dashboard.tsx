@@ -1,8 +1,8 @@
 import React from 'react'
 import Header from '../components/Header.js'
 import AsideMenu from '../components/AsideMenu.js'
-import Scrapping from '../components/Scrapping.jsx'
-import IA from '../components/IA.jsx'
+import Scrapping from '../components/Scrapping.js'
+import IA from '../components/IA.js'
 
 
 export default function Dashboard() {
@@ -14,8 +14,10 @@ export default function Dashboard() {
         </div>
         <section className='dashboard__content'>
           <Header />
-          <section className='dashboard__real__content'>
+          <section className='dashboard__real__content mt-5'>
             <Scrapping />
+            <br />
+            <div className="divider__dashboard"></div>
             <br />
             <IA />  
           </section>
