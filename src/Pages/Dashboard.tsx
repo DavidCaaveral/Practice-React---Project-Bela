@@ -16,9 +16,7 @@ export default function Dashboard() {
           <Header />
           <section className='dashboard__real__content mt-5'>
             <Scrapping />
-            <br />
-            <div className="divider__dashboard"></div>
-            <br />
+            <div className="divider__dashboard mt-5"></div>
             <IA />  
           </section>
         </section>

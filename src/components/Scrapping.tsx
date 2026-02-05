@@ -1,5 +1,6 @@
 import React from 'react'
 import sendIconScrapp from '../assets/Img/sendIcon.png'
+import { GoogleGenAI } from '@google/genai';
 
 const pButton = document.getElementById('pubmedBut') as HTMLButtonElement;
 const cButton = document.getElementById('crossBut') as HTMLButtonElement;
